@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang=fr>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<title>Theo - Portfolio</title>
+<link rel=icon href=./Images/icon.ico type=image/x-icon>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+<link rel=stylesheet href=styles.css>
+</head>
+<body>
+<nav>
+<div class=burger-menu>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div class=nav-container>
+<div class=nav-links>
+<a href=#about class=nav-link><i class="fas fa-user"></i> À propos</a>
+<a href=#projects class=nav-link><i class="fas fa-project-diagram"></i> Projets</a>
+<a href=#timeline class=nav-link><i class="fas fa-road"></i> Parcours</a>
+<a href=#interests class=nav-link><i class="fas fa-star"></i> Compétences</a>
+</div>
+<a href=# class=nav-brand>THÉO ROLLAND</a>
+<div class=nav-social id=navSocial></div>
+</div>
+</nav>
+<div class=carousel>
+<div class="carousel-slide active" style="background-image:url('./Images/code.jpg')">
+<div class=carousel-content>
+<h2>Réaliser des applications complètes</h2>
+<p class=carousel-text>Du design à la fin du développement</p>
+<a href=#projects class="btn carousel-btn">Voir mes projets</a>
+</div>
+</div>
+<div class=carousel-slide style="background-image:url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+<div class=carousel-content>
+<h2>Envie de créer</h2>
+<p class=carousel-text>Ma marque de vêtements est en création</p>
+<a href=#projects class="btn carousel-btn">Découvrir</a>
+</div>
+</div>
+<div class=carousel-slide style="background-image:url('./Images/beach.jpg')">
+<div class=carousel-content>
+<h2>Voyage et rencontres</h2>
+<p class=carousel-text>Actuellement en Erasmus en Espagne</p>
+<a href=#timeline class="btn carousel-btn">En savoir plus</a>
+</div>
+</div>
+<div class="carousel-arrow prev"><i class="fas fa-chevron-left"></i></div>
+<div class="carousel-arrow next"><i class="fas fa-chevron-right"></i></div>
+<div class=carousel-controls>
+<div class="carousel-dot active"></div>
+<div class=carousel-dot></div>
+<div class=carousel-dot></div>
+</div>
+</div>
+<div class=responsive-social id=responsiveSocial></div>
+<section id=about class=hero-section>
+<div class=hero-image>
+<img src=./Images/théo.jpg alt="Théo Rolland">
+</div>
+<div class=hero-container>
+<div class=hero-content>
+<h1 class=hero-title>Théo Rolland</h1>
+<div class=hero-description>
+<p class=hero-description-text>
+Étudiant en master d'informatique passionné par la musique, la création de jeux vidéos et le partage de contenu.
+</p>
+<p class=hero-description-text>
+Actuellement en Erasmus à San Sebastián, je travaille sur la création de ma marque de vêtements après avoir réalisé des dizaines de projets informatiques de A à Z.
+</p>
+</div>
+<div class=hero-buttons>
+<a href=#projects class="btn hero-btn">Voir mes projets</a>
+<a href=#timeline class="btn hero-btn">Voir mon parcours</a>
+</div>
+<div class=hero-cards>
+<a href=#projects class=card>
+<i class="fas fa-gamepad"></i>
+<h3>Création de jeux vidéos</h3>
+<p>Développer intégralement des jeux PC et mobiles.</p>
+<p>Générer des images de synthèse en 3D.</p>
+</a>
+<a href=#timeline class=card>
+<i class="fas fa-laptop-code"></i>
+<h3>Formation en informatique</h3>
+<p>Etudier un master en informatique.</p>
+<p>Je possède un baccalauréat avec mention très bien.</p>
+</a>
+<a href=#projects class=card>
+<i class="fas fa-music"></i>
+<h3>Chant et concerts</h3>
+<p>Je chante lors de concerts réunissant jusqu'à une centaine de personnes.</p>
+</a>
+<a href=#projects class=card>
+<i class="fas fa-chart-line"></i>
+<h3>Passion des statistiques</h3>
+<p>J'aime noter puis analyser des données sur ma vie et créer des graphiques sur mon temps libre.</p>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id=projects>
+<h2>Mes projets</h2>
+<div class=projects>
+<div class="project-card visible">
+<div class=project-img>
+<img src=./Images/TikTok.png alt="Réseaux sociaux">
+</div>
+<div class=project-info>
+<div class=project-header>
+<div class=project-icon>
+<i class="fas fa-share-alt"></i>
+</div>
+<h3>Création de contenu sur les réseaux sociaux</h3>
+</div>
+<p class=text-with-margin>Je partage de centaines de vidéos sur <a class=tiktok-link>TikTok</a> et <a class=instagram-link>Instagram</a>, et cumule des centaines de milliers de vues.</p>
+<p class=text-with-margin>Mon objectif ? Apprendre à toucher une large audience tout en ayant un coeur de communauté solide.
+Ma présence en ligne me servira à faire la promotion de mes projets comme ma marque de vêtements.</p>
+<p class=text-with-margin>Je partage aussi ocasionellement du contenu gaming sur ma chaine <a class=youtube-link>YouTube</a></p>
+<div class=tech-tags>
+<span class=tech-tag>Réseaux sociaux</span>
+<span class=tech-tag>Communication</span>
+</div>
+</div>
+</div>
+<div class="project-card visible">
+<div class=project-img>
+<img src=./Images/lycée.jpg alt=Concert>
+</div>
+<div class=project-info>
+<div class=project-header>
+<div class=project-icon>
+<i class="fas fa-microphone-alt"></i>
+</div>
+<h3>Chanter lors d'évènements</h3>
+</div>
+<p class=text-with-margin>J'ai chanté lors de concerts devant 100 personnes devant mon lycée et à la fête de la musique.</p>
+<p class=text-with-margin>J'ai également présenté la fête de mon lycée en première et en terminale.</p>
+<div class=tech-tags>
+<span class=tech-tag>Musique</span>
+<span class=tech-tag>Scène</span>
+<span class=tech-tag>Animation</span>
+</div>
+</div>
+</div>
+<div class="project-card visible">
+<div class=project-img>
+<img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=Mode>
+</div>
+<div class=project-info>
+<div class=project-header>
+<div class=project-icon>
+<i class="fas fa-tshirt"></i>
+</div>
+<h3>Marque de vêtements</h3>
+</div>
+<p class=text-with-margin>En cours de création...</p>
+<p class=text-with-margin>Marque de vêtements en print-on-demand sans stock, me permettant de me focaliser sur le design et la communication de la marque.</p>
+<div class=tech-tags>
+<span class=tech-tag>Design</span>
+<span class=tech-tag>E-commerce</span>
+<span class=tech-tag>Entrepreneuriat</span>
+</div>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img>
+<img src="./Images/Scratch Glide.png" alt="Jeu Scratch">
+</div>
+<div class=project-info>
+<div class=project-header>
+<div class=project-icon>
+<i class="fas fa-cat"></i>
+</div>
+<h3>Projet Scratch : Scratch Glide</h3>
+</div>
+<p class=text-with-margin>Un jeu vidéo codé avec scratch dans lequel le joueur incarne un chat qui vole.</p>
+<p class=text-with-margin>L'originalité du jeu est que des blocs de code viennent modifier le comportement du chat.</p>
+<div class=tech-tags>
+<span class=tech-tag>Scratch</span>
+<span class=tech-tag>Jeu vidéo</span>
+<span class=tech-tag>Programmation</span>
+</div>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img>
+<img src="./Images/Super Fruits.png" alt="Jeu vidéo">
+</div>
+<div class=project-info>
+<div class=project-header>
+<div class=project-icon>
+<i class="fas fa-apple-alt"></i>
+</div>
+<h3>Jeu vidéo : Super fruits</h3>
+</div>
+<p class=text-with-margin>Le joueur doit couper des fruits avec une lame. Certains fruits donnent des pouvoirs lorsqu'ils sont coupés.</p>
+<div class=tech-tags>
+<span class=tech-tag>Scratch</span>
+<span class=tech-tag>Jeu vidéo</span>
+<span class=tech-tag>Programmation</span>
+</div>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img>
+<img src=./Images/Blender_donut.PNG alt=3D>
+</div>
+<div class=project-info>
+<div class=project-header>
+<div class=project-icon>
+<i class="fas fa-cube"></i>
+</div>
+<h3>Génération d'images 3D</h3>
+</div>
+<p class=text-with-margin>Je créé occasionellement des images de synthèse en 3D avec Blender, tel que ce mignifique donut.</p>
+<div class=tech-tags>
+<span class=tech-tag>Blender</span>
+<span class=tech-tag>3D</span>
+<span class=tech-tag>Design</span>
+</div>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img>
+<img src="./Images/projet astéroides.png" alt=Astéroïdes>
+</div>
+<div class=project-info>
+<div class=project-header>
+<div class=project-icon>
+<i class="fas fa-meteor"></i>
+</div>
+<h3>Projet astéroïdes</h3>
+</div>
+<p class=text-with-margin>Jeu vidéo réalisé en groupe en cours de NSI, je le trouve personnellement très amusant.</p>
+<p class=text-with-margin>PS : Nous avons eu 20/20.</p>
+<div class=tech-tags>
+<span class=tech-tag>Python</span>
+<span class=tech-tag>Jeu vidéo</span>
+<span class=tech-tag>Programmation</span>
+<span class=tech-tag>Lycée</span>
+</div>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img>
+<img src=./Images/statistiques.png alt=Statistiques>
+</div>
+<div class=project-info>
+<div class=project-header>
+<div class=project-icon>
+<i class="fas fa-chart-pie"></i>
+</div>
+<h3>Statistiques</h3>
+</div>
+<p class=text-with-margin>J'aime créer des graphiques sur ma vie.</p>
+<p class=text-with-margin>C'est-à-dire que chaque jour, je note une dizaine d'informations telles que "Est ce que j'ai passé une bonne journée ?", "Est ce que je suis fatigué?", pour ensuite récupérer les données et les afficher sous forme de graphique en Python.</p>
+<div class=tech-tags>
+<span class=tech-tag>Python</span>
+<span class=tech-tag>Statistiques</span>
+<span class=tech-tag>Visualisation</span>
+</div>
+</div>
+</div>
+</div>
+<div class=show-more-container>
+<div class=show-more-gradient></div>
+<button class=show-more-btn id=show-more-projects>
+Voir plus de projets
+<i class="fas fa-chevron-down"></i>
+</button>
+</div>
+</section>
+<section class=stats-section>
+<div class=stats-container id=statsContainer></div>
+</section>
+<section id=timeline>
+<h2>Mon parcours</h2>
+<div class=timeline>
+<div class="timeline-item left">
+<div class=timeline-content>
+<div class=timeline-date>Janvier 2025 - Juin 2025</div>
+<div class=timeline-img>
+<img src=./Images/Ecole.jpg alt=Erasmus>
+</div>
+<h3>Erasmus à San Sebastián</h3>
+<p class=text-with-margin>Semestre en Espagne au cours duquel je termine ma prépa d'informatique.</p>
+<p>J'y fais de nombreuses rencontres enrichissantes, et participe régulièrement à des évènements Erasmus.</p>
+</div>
+</div>
+<div class="timeline-item right">
+<div class=timeline-content>
+<div class=timeline-date>Septembre 2023 - Décembre 2024</div>
+<div class=timeline-img>
+<img src=./Images/Epita.jpg alt="École d'ingénieur">
+</div>
+<h3>École d'ingénieur</h3>
+<p>Élève à l'EPITA, j'ai suivi une formation très complète en informatique et ai réalisé de nombreux projets en groupe.</p>
+</div>
+</div>
+<div class="timeline-item left">
+<div class=timeline-content>
+<div class=timeline-date>Septembre 2020 - Juin 2023</div>
+<div class=timeline-img>
+<img src=./Images/lycée.jpg alt=Lycée>
+</div>
+<h3>Lycée - Grands concerts</h3>
+<p class=text-with-margin>J'ai chanté lors de concerts devant 100 personnes devant mon lycée et à la fête de la musique.</p>
+<p class=text-with-margin>J'ai également présenté la fête de mon lycée en première et en terminale.</p>
+<p>Cela ne m'a pas empêché d'obtenir mon bac mention très bien, ni d'avoir 19/20 à chacune de mes épreuves de spécialités.</p>
+</div>
+</div>
+<div class="timeline-item right">
+<div class=timeline-content>
+<div class=timeline-date>Septembre 2016 - Juin 2020</div>
+<div class=timeline-img>
+<img src="./Images/Les sims 4.png" alt=Collège>
+</div>
+<h3>Collège - Mes premiers jeux vidéo</h3>
+<p class=text-with-margin>Faciné par la création de jeux vidéos depuis l'enfance, j'ai créé mes premiers jeux vidéo dès la sixième.</p>
+<p>Ce jeu vidéo de simulation de vie en fait partie.</p>
+</div>
+</div>
+</div>
+</section>
+<section id=interests>
+<h2>Mes centres d'intérêt</h2>
+<div class=interests-grid>
+<a href=#projects class=interest-item>
+<div class=interest-icon>
+<i class="fas fa-code"></i>
+</div>
+<h3 class=interest-title>Développement</h3>
+<p>Création de jeux vidéos, d'un site web, d'une application mobile</p>
+</a>
+<a href=#projects class=interest-item>
+<div class=interest-icon>
+<i class="fas fa-music"></i>
+</div>
+<h3 class=interest-title>Musique</h3>
+<p>Chanter lors de concerts, présenter des événements</p>
+</a>
+<a href=#projects class=interest-item>
+<div class=interest-icon>
+<i class="fas fa-paint-brush"></i>
+</div>
+<h3 class=interest-title>Design</h3>
+<p>Design d'un site web avec CSS, images 3D avec Blender</p>
+</a>
+<a href=#projects class=interest-item>
+<div class=interest-icon>
+<i class="fas fa-tshirt"></i>
+</div>
+<h3 class=interest-title>Mode</h3>
+<p>Marque de vêtements utilisant l'impression à la demande</p>
+</a>
+<a href=#timeline class=interest-item>
+<div class=interest-icon>
+<i class="fas fa-globe-europe"></i>
+</div>
+<h3 class=interest-title>Voyages</h3>
+<p>Participer à des événements Erasmus, faire des rencontres</p>
+</a>
+<a href=#projects class=interest-item>
+<div class=interest-icon>
+<i class="fas fa-heart"></i>
+</div>
+<h3 class=interest-title>Communauté</h3>
+<p>Créer du contenu sur les réseaux sociaux dans le but d'obtenir une communauté engagée</p>
+</a>
+</div>
+</section>
+<footer>
+<div class=footer-social id=footerSocial></div>
+<div class=footer-contact>
+<i class="fas fa-envelope"></i> Contact pro uniquement : theo.rolland@etik.com
+</div>
+<p class=copyright>&copy; 2025 THÉO ROLLAND. Tous droits réservés.</p>
+</footer>
+<script src=script.js></script>
+</body>
+</html>
